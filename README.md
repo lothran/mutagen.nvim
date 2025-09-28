@@ -1,5 +1,6 @@
 # mutagen.nvim
-Small plugin that provides some utils to interact with mutagen through neovim.
+Small plugin that provides some utils to interact with [mutagen](https://mutagen.io/documentation/synchronization/) through neovim.  
+It only covers the remote filesystem aspect of mutagen. Very useful for remote development.
 ## Features
 - Auto flush sync after buffer write
 - Telscope integration
