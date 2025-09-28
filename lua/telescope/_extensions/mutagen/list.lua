@@ -20,7 +20,8 @@ end
 
 function M.telescope_list_syncs(opts)
   local opts = {}
-  local sync = M.sync_list()
+  local mut = require("mutagen")
+  local sync = mut.sync_list()
   pickers.new(opts, {
     prompt_title = "syncs",
     finder = finders.new_table {
