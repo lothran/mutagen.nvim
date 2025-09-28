@@ -4,5 +4,5 @@ local list = require("telescope._extensions.mutagen.list")
 
 return require('telescope').register_extension {
 
-  exports = { mutagen_list_syncs = list },
+  exports = { mutagen_list_syncs = list.telescope_list_syncs },
 }
