@@ -1,8 +1,3 @@
-local mut = require("mutagen")
-
-
-
-
 return require('telescope').register_extension {
-    exports = { mutagen_list_syncs = mut.telescope_list_syncs },
+  exports = { mutagen_list_syncs = require("mutagen").telescope_list_syncs },
 }
