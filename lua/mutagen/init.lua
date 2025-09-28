@@ -119,7 +119,7 @@ function M.sync_flush(prompt_bufnr)
   vim.system({ "mutagen", "sync", "flush", name }, {}, function() end):wait(10)
 end
 
-function M.telescope_list_syncs(keys)
+function M.telescope_list_syncs(opts)
   local opts = {}
   local sync = M.sync_list()
   pickers.new(opts, {
