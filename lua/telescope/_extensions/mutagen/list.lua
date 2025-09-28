@@ -1,4 +1,3 @@
-local mod = require('mutagen')
 local actions = require "telescope.actions"
 local action_state = require "telescope.actions.state"
 local pickers = require "telescope.pickers"
